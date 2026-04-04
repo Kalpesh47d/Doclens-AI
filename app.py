@@ -1,9 +1,9 @@
 import streamlit as st
-from loader import extract_text
-from chunking import split_text
-from vector_store import create_vector_store
-from retriever import retrieve
-from llm import get_answer
+from src.core.loader import extract_text
+from src.core.chunking import split_text
+from src.core.vector_store import create_vector_store
+from src.core.retriever import retrieve
+from src.core.llm import get_answer
 
 st.title("📄 RAG Document Assistant")
 
