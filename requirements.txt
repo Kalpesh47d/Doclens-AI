@@ -8,3 +8,5 @@ langchain
 python-dotenv
 requests
 openpyxl
+torchvision
+langchain-text-splitters
